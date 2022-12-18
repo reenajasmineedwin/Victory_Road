@@ -1,0 +1,24 @@
+
+
+
+
+EmpID	EmpFname	EmpLname	Department	Project	Address				DOB				Gender
+
+1		Sanjay		Mehra			HR			P1	Bangalore(BLR)		1/12/1976			M
+2		Ananya		Mishra			Admin		P2	Delhi(DEL)			2/5/1968			F
+4		Sonia		Kulkarni		HR			P1	Bangalore(BLR)		2/5/1992			F
+5		Ankit		Kapoor			Admin		P2	Delhi(DEL)			3/7/1994			M
+
+
+
+
+
+
+
+
+Write a query to fetch only the place name(string before brackets) from the Address column of EmployeeInfo table.
+
+
+Write a query to fetch details of all employees excluding the employees with first names, “Sanjay” and “Sonia” from the EmployeeInfo table.
+
+select * from EmplyeeInfo where EmpFname NOT IN ("Sanjay", "Sonia");
